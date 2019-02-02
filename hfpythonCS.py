@@ -185,6 +185,7 @@ print(n.tostr())
 print("methods of " + str(type(lista)) + " : " + str(dir(lista)))
 
 print("\nCHAPTER 7---------------------------------------------------------")
+
 #create a web server
 """
 from http.server import HTTPServer, CGIHTTPRequestHandler
@@ -212,6 +213,7 @@ print("as attribute: " + str(v.valore) +
         "\nas property: " + str(v.getvalp))
         
 print("\nCHAPTER 8---------------------------------------------------------")
+
 #json
 import json
 datiDaSalvare = ["categoria", ["elem1","elem2"], "categoria2",["elem3","elem4"]]
@@ -222,6 +224,7 @@ recreatedFile = json.loads(transferFile)
 print("the loaded data: " + str(recreatedFile))
 
 print("\nCHAPTER 9---------------------------------------------------------")
+
 #use os to interact with the system
 import os
 os.system("echo ciao") #execute in terminal
@@ -249,9 +252,11 @@ connection.commit() #save data
 connection.close() #close connection
 
 print("\nCHAPTER 10--------------------------------------------------------")
+
 print("Focused on webapp development with GAE (Google App Engine)")
 
 print("\nCHAPTER 11--------------------------------------------------------")
+
 #get user input (as a str)
 testo = input("Insert some textual input: ")
 print("you inserted: " + testo)
